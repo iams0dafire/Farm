@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/icbackg"
+    tools:context="rmuti.farm.Activity_inputdata">
+
+    <RelativeLayout
+        android:id="@+id/layout1"
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/txseclect" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layout2"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_below="@+id/layout1">
+
+        <LinearLayout
+            android:id="@+id/linear1"
+            android:layout_width="200dp"
+            android:layout_height="150dp">
+
+            <RelativeLayout
+                android:id="@+id/layout21"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/pic121"
+                    android:layout_width="wrap_content"
+                    android:layout_height="100dp"
+                    android:src="@drawable/icfertilizer" />
+
+
+                <ImageView
+                    android:id="@+id/pic122"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_below="@+id/pic121"
+                    android:src="@drawable/txfertilizer" />
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linear2"
+            android:layout_width="200dp"
+            android:layout_height="150dp"
+            android:layout_toRightOf="@+id/linear1">
+
+            <RelativeLayout
+                android:id="@+id/layout22"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/pic221"
+                    android:layout_width="wrap_content"
+                    android:layout_height="100dp"
+                    android:src="@drawable/iccare" />
+
+
+                <ImageView
+                    android:id="@+id/pic222"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_below="@+id/pic221"
+                    android:src="@drawable/txcare" />
+            </RelativeLayout>
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layoo1"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_below="@id/layout2">
+
+        <LinearLayout
+            android:id="@+id/linear31"
+            android:layout_width="200dp"
+            android:layout_height="150dp">
+
+            <RelativeLayout
+                android:id="@+id/layout32"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/pic31"
+                    android:layout_width="wrap_content"
+                    android:layout_height="100dp"
+                    android:src="@drawable/icweather" />
+
+
+                <ImageView
+                    android:id="@+id/pic32"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_below="@+id/pic31"
+                    android:src="@drawable/txweather" />
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linear4"
+            android:layout_width="200dp"
+            android:layout_height="150dp"
+            android:layout_toRightOf="@+id/linear31">
+
+            <RelativeLayout
+                android:id="@+id/layout41"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/pic41"
+                    android:layout_width="wrap_content"
+                    android:layout_height="100dp"
+                    android:src="@drawable/icharvest" />
+
+
+                <ImageView
+                    android:id="@+id/pic42"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_below="@+id/pic41"
+                    android:src="@drawable/txharvest" />
+            </RelativeLayout>
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layoo2"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_below="@+id/layoo1">
+
+        <ImageView
+            android:id="@+id/backToMain"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/txback" />
+
+    </RelativeLayout>
+</RelativeLayout>
